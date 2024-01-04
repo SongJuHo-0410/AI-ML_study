@@ -24,7 +24,7 @@
     - 평균 제곱 오차 (MSE): 0.7831374986059993
     - 평균 절대 오차 (MAE): 0.5691584699453552
 
-    ![Alt text](image-2.png)
+    ![Alt text](images/image-2.png)
 
 - **특성 중요도**:
     1. 현재 가격 (88%)
@@ -35,7 +35,7 @@
     6. 판매 유형
     7. 소유자 변경 횟수
     
-    ![Alt text](image-1.png)
+    ![Alt text](images/image-1.png)
 
 ### XGBoost Model
 - **사용 모델**: XGBoost (회귀)
@@ -44,7 +44,7 @@
 - **모델 성능 지표**:
     - 평균 절대 오차 (MAE): 0.5480373593822854
 
-    ![Alt text](image-3.png)
+    ![Alt text](images/image-3.png)
 
 - **특성 중요도**:
     - Present_Price: 0.7185
@@ -59,7 +59,7 @@
     - Car_Name_innova: 0.0028
     
 
-    ![Alt text](image.png)
+    ![Alt text](images/image.png)
 ## 결론
 MAE 평가 지표를 본다면 XGBOOST가 0.548로 0.569보다 낮으나 실제로 큰 차이가 나지 않는 것으로 보이며 이는 데이터 부족으로 인해 큰 차이가 나지 않는 것으로 보입니다.
 XGBOOST고 랜덤포레스트 모델을 통해 중고 자동차의 구매 또는 판매에 관한 의사 결정을 지원할 수 있습니다.
