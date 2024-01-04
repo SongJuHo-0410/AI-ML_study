@@ -14,7 +14,7 @@
 - **Transmission**: 변속기 유형
 - **Owner**: 소유자 변경 횟수
 
-- 데이터 개수 : 301
+데이터 개수 : 301
 
 ## 예측 모델
 ### Random Forest Model
