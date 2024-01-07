@@ -1,0 +1,2 @@
+Dealer: 0
+Individual: 1
